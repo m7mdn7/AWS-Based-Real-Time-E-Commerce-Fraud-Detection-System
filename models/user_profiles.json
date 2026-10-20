@@ -1,0 +1,1562 @@
+{
+  "USR-1001": {
+    "user_id": "USR-1001",
+    "avg_amount": 1006.16,
+    "std_amount": 300.82,
+    "total_historical_transactions": 29,
+    "primary_city": "Mumbai",
+    "frequent_locations": [
+      "Mumbai",
+      "Bengaluru"
+    ],
+    "known_devices": [
+      "DEV-ANDR-28289",
+      "DEV-LAP-23434"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Tata CLiQ",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      9,
+      10,
+      12,
+      12
+    ]
+  },
+  "USR-1002": {
+    "user_id": "USR-1002",
+    "avg_amount": 870.93,
+    "std_amount": 342.45,
+    "total_historical_transactions": 60,
+    "primary_city": "Jaipur",
+    "frequent_locations": [
+      "Jaipur",
+      "Bengaluru"
+    ],
+    "known_devices": [
+      "DEV-ANDR-81426",
+      "DEV-LAP-64987"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "H&M India",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      21,
+      22,
+      9,
+      21
+    ]
+  },
+  "USR-1003": {
+    "user_id": "USR-1003",
+    "avg_amount": 705.19,
+    "std_amount": 198.23,
+    "total_historical_transactions": 70,
+    "primary_city": "Delhi NCR",
+    "frequent_locations": [
+      "Delhi NCR",
+      "Ahmedabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-54118",
+      "DEV-LAP-23396"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "H&M India",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      22,
+      14,
+      18,
+      13
+    ]
+  },
+  "USR-1004": {
+    "user_id": "USR-1004",
+    "avg_amount": 852.17,
+    "std_amount": 378.89,
+    "total_historical_transactions": 98,
+    "primary_city": "Bengaluru",
+    "frequent_locations": [
+      "Bengaluru",
+      "Jaipur"
+    ],
+    "known_devices": [
+      "DEV-ANDR-59615",
+      "DEV-LAP-20328"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Tata CLiQ",
+      "Croma"
+    ],
+    "preferred_hours": [
+      12,
+      20,
+      10,
+      9
+    ]
+  },
+  "USR-1005": {
+    "user_id": "USR-1005",
+    "avg_amount": 1188.92,
+    "std_amount": 500.61,
+    "total_historical_transactions": 45,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Pune"
+    ],
+    "known_devices": [
+      "DEV-ANDR-23238",
+      "DEV-LAP-59823"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "H&M India",
+      "Croma"
+    ],
+    "preferred_hours": [
+      14,
+      14,
+      12,
+      19
+    ]
+  },
+  "USR-1006": {
+    "user_id": "USR-1006",
+    "avg_amount": 906.85,
+    "std_amount": 257.75,
+    "total_historical_transactions": 106,
+    "primary_city": "Chennai",
+    "frequent_locations": [
+      "Chennai",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-42087",
+      "DEV-LAP-31417"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "H&M India",
+      "Croma"
+    ],
+    "preferred_hours": [
+      20,
+      17,
+      12,
+      19
+    ]
+  },
+  "USR-1007": {
+    "user_id": "USR-1007",
+    "avg_amount": 621.79,
+    "std_amount": 159.44,
+    "total_historical_transactions": 97,
+    "primary_city": "Pune",
+    "frequent_locations": [
+      "Pune",
+      "Bengaluru"
+    ],
+    "known_devices": [
+      "DEV-ANDR-51347",
+      "DEV-LAP-62581"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Myntra",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      20,
+      14,
+      12,
+      19
+    ]
+  },
+  "USR-1008": {
+    "user_id": "USR-1008",
+    "avg_amount": 1113.51,
+    "std_amount": 421.54,
+    "total_historical_transactions": 93,
+    "primary_city": "Ahmedabad",
+    "frequent_locations": [
+      "Ahmedabad",
+      "Kolkata"
+    ],
+    "known_devices": [
+      "DEV-ANDR-28726",
+      "DEV-LAP-44718"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Ajio",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      13,
+      20,
+      18,
+      15
+    ]
+  },
+  "USR-1009": {
+    "user_id": "USR-1009",
+    "avg_amount": 721.5,
+    "std_amount": 324.29,
+    "total_historical_transactions": 39,
+    "primary_city": "Kochi",
+    "frequent_locations": [
+      "Kochi",
+      "Kolkata"
+    ],
+    "known_devices": [
+      "DEV-ANDR-28131",
+      "DEV-LAP-76784"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Myntra",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      11,
+      19,
+      11,
+      21
+    ]
+  },
+  "USR-1010": {
+    "user_id": "USR-1010",
+    "avg_amount": 738.58,
+    "std_amount": 272.67,
+    "total_historical_transactions": 112,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-71348",
+      "DEV-LAP-79352"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Tata CLiQ",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      20,
+      10,
+      19,
+      17
+    ]
+  },
+  "USR-1011": {
+    "user_id": "USR-1011",
+    "avg_amount": 533.66,
+    "std_amount": 179.82,
+    "total_historical_transactions": 89,
+    "primary_city": "Chennai",
+    "frequent_locations": [
+      "Chennai",
+      "Kolkata"
+    ],
+    "known_devices": [
+      "DEV-ANDR-69470",
+      "DEV-LAP-10425"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Tata CLiQ",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      10,
+      22,
+      19,
+      13
+    ]
+  },
+  "USR-1012": {
+    "user_id": "USR-1012",
+    "avg_amount": 564.63,
+    "std_amount": 227.26,
+    "total_historical_transactions": 87,
+    "primary_city": "Jaipur",
+    "frequent_locations": [
+      "Jaipur",
+      "Hyderabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-80697",
+      "DEV-LAP-79514"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Tata CLiQ",
+      "Croma"
+    ],
+    "preferred_hours": [
+      9,
+      10,
+      14,
+      22
+    ]
+  },
+  "USR-1013": {
+    "user_id": "USR-1013",
+    "avg_amount": 493.44,
+    "std_amount": 210.01,
+    "total_historical_transactions": 41,
+    "primary_city": "Chennai",
+    "frequent_locations": [
+      "Chennai",
+      "Hyderabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-20322",
+      "DEV-LAP-21226"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Myntra",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      11,
+      19,
+      16,
+      17
+    ]
+  },
+  "USR-1014": {
+    "user_id": "USR-1014",
+    "avg_amount": 845.76,
+    "std_amount": 314.05,
+    "total_historical_transactions": 110,
+    "primary_city": "Delhi NCR",
+    "frequent_locations": [
+      "Delhi NCR",
+      "Pune"
+    ],
+    "known_devices": [
+      "DEV-ANDR-37760",
+      "DEV-LAP-80686"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Zara India",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      19,
+      14,
+      16,
+      17
+    ]
+  },
+  "USR-1015": {
+    "user_id": "USR-1015",
+    "avg_amount": 635.93,
+    "std_amount": 167.13,
+    "total_historical_transactions": 25,
+    "primary_city": "Ahmedabad",
+    "frequent_locations": [
+      "Ahmedabad",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-12757",
+      "DEV-LAP-87110"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Tata CLiQ",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      10,
+      20,
+      19,
+      9
+    ]
+  },
+  "USR-1016": {
+    "user_id": "USR-1016",
+    "avg_amount": 1129.07,
+    "std_amount": 476.39,
+    "total_historical_transactions": 52,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-19287",
+      "DEV-LAP-77391"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Zara India",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      17,
+      11,
+      20,
+      18
+    ]
+  },
+  "USR-1017": {
+    "user_id": "USR-1017",
+    "avg_amount": 632.25,
+    "std_amount": 217.87,
+    "total_historical_transactions": 70,
+    "primary_city": "Kochi",
+    "frequent_locations": [
+      "Kochi",
+      "Ahmedabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-63354",
+      "DEV-LAP-34957"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Myntra",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      15,
+      15,
+      16,
+      22
+    ]
+  },
+  "USR-1018": {
+    "user_id": "USR-1018",
+    "avg_amount": 495.46,
+    "std_amount": 196.03,
+    "total_historical_transactions": 82,
+    "primary_city": "Bengaluru",
+    "frequent_locations": [
+      "Bengaluru",
+      "Delhi NCR"
+    ],
+    "known_devices": [
+      "DEV-ANDR-24322",
+      "DEV-LAP-42591"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Ajio",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      11,
+      15,
+      11,
+      13
+    ]
+  },
+  "USR-1019": {
+    "user_id": "USR-1019",
+    "avg_amount": 1105.86,
+    "std_amount": 293.14,
+    "total_historical_transactions": 36,
+    "primary_city": "Ahmedabad",
+    "frequent_locations": [
+      "Ahmedabad",
+      "Hyderabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-82132",
+      "DEV-LAP-22833"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Tata CLiQ",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      21,
+      22,
+      12,
+      11
+    ]
+  },
+  "USR-1020": {
+    "user_id": "USR-1020",
+    "avg_amount": 811.02,
+    "std_amount": 343.0,
+    "total_historical_transactions": 58,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Jaipur"
+    ],
+    "known_devices": [
+      "DEV-ANDR-17685",
+      "DEV-LAP-31579"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Myntra",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      21,
+      21,
+      16,
+      13
+    ]
+  },
+  "USR-1021": {
+    "user_id": "USR-1021",
+    "avg_amount": 946.4,
+    "std_amount": 328.72,
+    "total_historical_transactions": 119,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Kochi"
+    ],
+    "known_devices": [
+      "DEV-ANDR-34890",
+      "DEV-LAP-48890"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Myntra",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      17,
+      9,
+      20,
+      14
+    ]
+  },
+  "USR-1022": {
+    "user_id": "USR-1022",
+    "avg_amount": 888.13,
+    "std_amount": 311.35,
+    "total_historical_transactions": 48,
+    "primary_city": "Bengaluru",
+    "frequent_locations": [
+      "Bengaluru",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-79615",
+      "DEV-LAP-30635"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Tata CLiQ",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      10,
+      18,
+      10,
+      19
+    ]
+  },
+  "USR-1023": {
+    "user_id": "USR-1023",
+    "avg_amount": 539.91,
+    "std_amount": 231.11,
+    "total_historical_transactions": 78,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Ahmedabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-42271",
+      "DEV-LAP-85880"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Tata CLiQ",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      19,
+      18,
+      18,
+      17
+    ]
+  },
+  "USR-1024": {
+    "user_id": "USR-1024",
+    "avg_amount": 603.19,
+    "std_amount": 237.2,
+    "total_historical_transactions": 83,
+    "primary_city": "Pune",
+    "frequent_locations": [
+      "Pune",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-41285",
+      "DEV-LAP-44814"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Ajio",
+      "Croma"
+    ],
+    "preferred_hours": [
+      14,
+      21,
+      10,
+      9
+    ]
+  },
+  "USR-1025": {
+    "user_id": "USR-1025",
+    "avg_amount": 504.95,
+    "std_amount": 147.76,
+    "total_historical_transactions": 72,
+    "primary_city": "Ahmedabad",
+    "frequent_locations": [
+      "Ahmedabad",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-44760",
+      "DEV-LAP-27361"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Myntra",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      13,
+      11,
+      16,
+      22
+    ]
+  },
+  "USR-1026": {
+    "user_id": "USR-1026",
+    "avg_amount": 908.76,
+    "std_amount": 406.62,
+    "total_historical_transactions": 109,
+    "primary_city": "Jaipur",
+    "frequent_locations": [
+      "Jaipur",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-95717",
+      "DEV-LAP-79329"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Tata CLiQ",
+      "Croma"
+    ],
+    "preferred_hours": [
+      10,
+      11,
+      13,
+      10
+    ]
+  },
+  "USR-1027": {
+    "user_id": "USR-1027",
+    "avg_amount": 566.59,
+    "std_amount": 173.58,
+    "total_historical_transactions": 87,
+    "primary_city": "Mumbai",
+    "frequent_locations": [
+      "Mumbai",
+      "Kochi"
+    ],
+    "known_devices": [
+      "DEV-ANDR-37607",
+      "DEV-LAP-54942"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Zara India",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      13,
+      22,
+      9,
+      10
+    ]
+  },
+  "USR-1028": {
+    "user_id": "USR-1028",
+    "avg_amount": 483.07,
+    "std_amount": 152.99,
+    "total_historical_transactions": 95,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-27146",
+      "DEV-LAP-93507"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Ajio",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      20,
+      15,
+      17,
+      9
+    ]
+  },
+  "USR-1029": {
+    "user_id": "USR-1029",
+    "avg_amount": 1158.79,
+    "std_amount": 449.85,
+    "total_historical_transactions": 95,
+    "primary_city": "Mumbai",
+    "frequent_locations": [
+      "Mumbai",
+      "Delhi NCR"
+    ],
+    "known_devices": [
+      "DEV-ANDR-29536",
+      "DEV-LAP-81511"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Zara India",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      11,
+      15,
+      11,
+      9
+    ]
+  },
+  "USR-1030": {
+    "user_id": "USR-1030",
+    "avg_amount": 1124.24,
+    "std_amount": 460.07,
+    "total_historical_transactions": 70,
+    "primary_city": "Chennai",
+    "frequent_locations": [
+      "Chennai",
+      "Kolkata"
+    ],
+    "known_devices": [
+      "DEV-ANDR-15229",
+      "DEV-LAP-56898"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Ajio",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      21,
+      17,
+      22,
+      15
+    ]
+  },
+  "USR-1031": {
+    "user_id": "USR-1031",
+    "avg_amount": 1144.32,
+    "std_amount": 340.26,
+    "total_historical_transactions": 119,
+    "primary_city": "Kochi",
+    "frequent_locations": [
+      "Kochi",
+      "Delhi NCR"
+    ],
+    "known_devices": [
+      "DEV-ANDR-31299",
+      "DEV-LAP-33206"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Myntra",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      14,
+      21,
+      15,
+      21
+    ]
+  },
+  "USR-1032": {
+    "user_id": "USR-1032",
+    "avg_amount": 569.4,
+    "std_amount": 222.21,
+    "total_historical_transactions": 83,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Pune"
+    ],
+    "known_devices": [
+      "DEV-ANDR-60140",
+      "DEV-LAP-15075"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Ajio",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      14,
+      13,
+      22,
+      21
+    ]
+  },
+  "USR-1033": {
+    "user_id": "USR-1033",
+    "avg_amount": 467.75,
+    "std_amount": 135.0,
+    "total_historical_transactions": 107,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-53025",
+      "DEV-LAP-46517"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Zara India",
+      "Croma"
+    ],
+    "preferred_hours": [
+      17,
+      15,
+      19,
+      22
+    ]
+  },
+  "USR-1034": {
+    "user_id": "USR-1034",
+    "avg_amount": 1154.43,
+    "std_amount": 315.24,
+    "total_historical_transactions": 101,
+    "primary_city": "Jaipur",
+    "frequent_locations": [
+      "Jaipur",
+      "Pune"
+    ],
+    "known_devices": [
+      "DEV-ANDR-44237",
+      "DEV-LAP-33405"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Myntra",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      15,
+      14,
+      20,
+      21
+    ]
+  },
+  "USR-1035": {
+    "user_id": "USR-1035",
+    "avg_amount": 904.66,
+    "std_amount": 318.7,
+    "total_historical_transactions": 115,
+    "primary_city": "Pune",
+    "frequent_locations": [
+      "Pune",
+      "Ahmedabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-60488",
+      "DEV-LAP-85574"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Zara India",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      15,
+      9,
+      17,
+      21
+    ]
+  },
+  "USR-1036": {
+    "user_id": "USR-1036",
+    "avg_amount": 723.17,
+    "std_amount": 190.91,
+    "total_historical_transactions": 89,
+    "primary_city": "Jaipur",
+    "frequent_locations": [
+      "Jaipur",
+      "Hyderabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-97062",
+      "DEV-LAP-53279"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Myntra",
+      "Croma"
+    ],
+    "preferred_hours": [
+      13,
+      19,
+      15,
+      14
+    ]
+  },
+  "USR-1037": {
+    "user_id": "USR-1037",
+    "avg_amount": 865.81,
+    "std_amount": 249.67,
+    "total_historical_transactions": 63,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-97153",
+      "DEV-LAP-59695"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Tata CLiQ",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      15,
+      17,
+      22,
+      9
+    ]
+  },
+  "USR-1038": {
+    "user_id": "USR-1038",
+    "avg_amount": 607.64,
+    "std_amount": 247.4,
+    "total_historical_transactions": 81,
+    "primary_city": "Chennai",
+    "frequent_locations": [
+      "Chennai",
+      "Pune"
+    ],
+    "known_devices": [
+      "DEV-ANDR-89516",
+      "DEV-LAP-95813"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "H&M India",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      19,
+      12,
+      17,
+      16
+    ]
+  },
+  "USR-1039": {
+    "user_id": "USR-1039",
+    "avg_amount": 662.84,
+    "std_amount": 253.72,
+    "total_historical_transactions": 53,
+    "primary_city": "Delhi NCR",
+    "frequent_locations": [
+      "Delhi NCR",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-91167",
+      "DEV-LAP-53933"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Ajio",
+      "Croma"
+    ],
+    "preferred_hours": [
+      21,
+      12,
+      11,
+      9
+    ]
+  },
+  "USR-1040": {
+    "user_id": "USR-1040",
+    "avg_amount": 1187.95,
+    "std_amount": 442.22,
+    "total_historical_transactions": 116,
+    "primary_city": "Bengaluru",
+    "frequent_locations": [
+      "Bengaluru",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-19545",
+      "DEV-LAP-69692"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Tata CLiQ",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      20,
+      15,
+      16,
+      15
+    ]
+  },
+  "USR-1041": {
+    "user_id": "USR-1041",
+    "avg_amount": 942.04,
+    "std_amount": 236.55,
+    "total_historical_transactions": 84,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Delhi NCR"
+    ],
+    "known_devices": [
+      "DEV-ANDR-23970",
+      "DEV-LAP-65724"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Ajio",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      9,
+      17,
+      12,
+      22
+    ]
+  },
+  "USR-1042": {
+    "user_id": "USR-1042",
+    "avg_amount": 550.0,
+    "std_amount": 188.61,
+    "total_historical_transactions": 117,
+    "primary_city": "Mumbai",
+    "frequent_locations": [
+      "Mumbai",
+      "Jaipur"
+    ],
+    "known_devices": [
+      "DEV-ANDR-79616",
+      "DEV-LAP-83259"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "H&M India",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      17,
+      15,
+      22,
+      17
+    ]
+  },
+  "USR-1043": {
+    "user_id": "USR-1043",
+    "avg_amount": 1007.74,
+    "std_amount": 347.6,
+    "total_historical_transactions": 105,
+    "primary_city": "Ahmedabad",
+    "frequent_locations": [
+      "Ahmedabad",
+      "Delhi NCR"
+    ],
+    "known_devices": [
+      "DEV-ANDR-43972",
+      "DEV-LAP-42406"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Tata CLiQ",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      12,
+      13,
+      16,
+      10
+    ]
+  },
+  "USR-1044": {
+    "user_id": "USR-1044",
+    "avg_amount": 653.79,
+    "std_amount": 205.25,
+    "total_historical_transactions": 74,
+    "primary_city": "Chennai",
+    "frequent_locations": [
+      "Chennai",
+      "Hyderabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-80798",
+      "DEV-LAP-20561"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Ajio",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      20,
+      11,
+      20,
+      12
+    ]
+  },
+  "USR-1045": {
+    "user_id": "USR-1045",
+    "avg_amount": 755.7,
+    "std_amount": 270.94,
+    "total_historical_transactions": 99,
+    "primary_city": "Mumbai",
+    "frequent_locations": [
+      "Mumbai",
+      "Ahmedabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-64496",
+      "DEV-LAP-18161"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "H&M India",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      20,
+      9,
+      22,
+      21
+    ]
+  },
+  "USR-1046": {
+    "user_id": "USR-1046",
+    "avg_amount": 807.73,
+    "std_amount": 354.23,
+    "total_historical_transactions": 102,
+    "primary_city": "Kochi",
+    "frequent_locations": [
+      "Kochi",
+      "Kolkata"
+    ],
+    "known_devices": [
+      "DEV-ANDR-49139",
+      "DEV-LAP-61116"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Tata CLiQ",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      12,
+      16,
+      12,
+      13
+    ]
+  },
+  "USR-1047": {
+    "user_id": "USR-1047",
+    "avg_amount": 471.77,
+    "std_amount": 149.66,
+    "total_historical_transactions": 104,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Jaipur"
+    ],
+    "known_devices": [
+      "DEV-ANDR-99016",
+      "DEV-LAP-62994"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "H&M India",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      17,
+      9,
+      15,
+      18
+    ]
+  },
+  "USR-1048": {
+    "user_id": "USR-1048",
+    "avg_amount": 512.96,
+    "std_amount": 172.21,
+    "total_historical_transactions": 66,
+    "primary_city": "Kochi",
+    "frequent_locations": [
+      "Kochi",
+      "Bengaluru"
+    ],
+    "known_devices": [
+      "DEV-ANDR-70515",
+      "DEV-LAP-33819"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Zara India",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      12,
+      16,
+      14,
+      14
+    ]
+  },
+  "USR-1049": {
+    "user_id": "USR-1049",
+    "avg_amount": 1014.01,
+    "std_amount": 422.22,
+    "total_historical_transactions": 31,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-43065",
+      "DEV-LAP-20735"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Myntra",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      14,
+      12,
+      19,
+      10
+    ]
+  },
+  "USR-1050": {
+    "user_id": "USR-1050",
+    "avg_amount": 1162.21,
+    "std_amount": 336.89,
+    "total_historical_transactions": 85,
+    "primary_city": "Bengaluru",
+    "frequent_locations": [
+      "Bengaluru",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-12671",
+      "DEV-LAP-91439"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Ajio",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      19,
+      10,
+      18,
+      12
+    ]
+  },
+  "USR-1051": {
+    "user_id": "USR-1051",
+    "avg_amount": 1025.17,
+    "std_amount": 290.69,
+    "total_historical_transactions": 99,
+    "primary_city": "Ahmedabad",
+    "frequent_locations": [
+      "Ahmedabad",
+      "Chennai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-89593",
+      "DEV-LAP-25012"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Zara India",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      9,
+      13,
+      18,
+      19
+    ]
+  },
+  "USR-1052": {
+    "user_id": "USR-1052",
+    "avg_amount": 1156.1,
+    "std_amount": 334.88,
+    "total_historical_transactions": 112,
+    "primary_city": "Kolkata",
+    "frequent_locations": [
+      "Kolkata",
+      "Ahmedabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-87607",
+      "DEV-LAP-92213"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "Myntra",
+      "Croma"
+    ],
+    "preferred_hours": [
+      18,
+      21,
+      10,
+      21
+    ]
+  },
+  "USR-1053": {
+    "user_id": "USR-1053",
+    "avg_amount": 710.4,
+    "std_amount": 238.46,
+    "total_historical_transactions": 87,
+    "primary_city": "Kochi",
+    "frequent_locations": [
+      "Kochi",
+      "Bengaluru"
+    ],
+    "known_devices": [
+      "DEV-ANDR-58571",
+      "DEV-LAP-19038"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Myntra",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      10,
+      15,
+      14,
+      19
+    ]
+  },
+  "USR-1054": {
+    "user_id": "USR-1054",
+    "avg_amount": 776.62,
+    "std_amount": 308.13,
+    "total_historical_transactions": 118,
+    "primary_city": "Ahmedabad",
+    "frequent_locations": [
+      "Ahmedabad",
+      "Delhi NCR"
+    ],
+    "known_devices": [
+      "DEV-ANDR-95256",
+      "DEV-LAP-45400"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "H&M India",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      18,
+      13,
+      14,
+      22
+    ]
+  },
+  "USR-1055": {
+    "user_id": "USR-1055",
+    "avg_amount": 659.2,
+    "std_amount": 224.23,
+    "total_historical_transactions": 88,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-70910",
+      "DEV-LAP-84691"
+    ],
+    "frequent_merchants": [
+      "BigBasket",
+      "Zara India",
+      "Amazon India"
+    ],
+    "preferred_hours": [
+      22,
+      14,
+      11,
+      16
+    ]
+  },
+  "USR-1056": {
+    "user_id": "USR-1056",
+    "avg_amount": 1048.37,
+    "std_amount": 333.45,
+    "total_historical_transactions": 35,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Kolkata"
+    ],
+    "known_devices": [
+      "DEV-ANDR-88139",
+      "DEV-LAP-46211"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Tata CLiQ",
+      "Flipkart"
+    ],
+    "preferred_hours": [
+      12,
+      20,
+      15,
+      16
+    ]
+  },
+  "USR-1057": {
+    "user_id": "USR-1057",
+    "avg_amount": 967.96,
+    "std_amount": 367.03,
+    "total_historical_transactions": 53,
+    "primary_city": "Jaipur",
+    "frequent_locations": [
+      "Jaipur",
+      "Hyderabad"
+    ],
+    "known_devices": [
+      "DEV-ANDR-74332",
+      "DEV-LAP-68743"
+    ],
+    "frequent_merchants": [
+      "Blinkit",
+      "Myntra",
+      "Croma"
+    ],
+    "preferred_hours": [
+      15,
+      20,
+      12,
+      13
+    ]
+  },
+  "USR-1058": {
+    "user_id": "USR-1058",
+    "avg_amount": 804.95,
+    "std_amount": 286.71,
+    "total_historical_transactions": 59,
+    "primary_city": "Kochi",
+    "frequent_locations": [
+      "Kochi",
+      "Pune"
+    ],
+    "known_devices": [
+      "DEV-ANDR-65771",
+      "DEV-LAP-82140"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Zara India",
+      "Reliance Digital"
+    ],
+    "preferred_hours": [
+      13,
+      13,
+      12,
+      10
+    ]
+  },
+  "USR-1059": {
+    "user_id": "USR-1059",
+    "avg_amount": 539.67,
+    "std_amount": 192.76,
+    "total_historical_transactions": 117,
+    "primary_city": "Hyderabad",
+    "frequent_locations": [
+      "Hyderabad",
+      "Kolkata"
+    ],
+    "known_devices": [
+      "DEV-ANDR-34267",
+      "DEV-LAP-35105"
+    ],
+    "frequent_merchants": [
+      "Zepto",
+      "H&M India",
+      "Croma"
+    ],
+    "preferred_hours": [
+      18,
+      21,
+      17,
+      18
+    ]
+  },
+  "USR-1060": {
+    "user_id": "USR-1060",
+    "avg_amount": 1074.47,
+    "std_amount": 332.28,
+    "total_historical_transactions": 41,
+    "primary_city": "Chennai",
+    "frequent_locations": [
+      "Chennai",
+      "Mumbai"
+    ],
+    "known_devices": [
+      "DEV-ANDR-57301",
+      "DEV-LAP-33519"
+    ],
+    "frequent_merchants": [
+      "Swiggy Instamart",
+      "Myntra",
+      "Apple Store India"
+    ],
+    "preferred_hours": [
+      13,
+      9,
+      9,
+      17
+    ]
+  }
+}

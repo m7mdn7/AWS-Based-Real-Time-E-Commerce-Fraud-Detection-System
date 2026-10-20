@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables and Secrets
+.env
+.env.local
+*.pem
+credentials
+aws_credentials.json
+
+# Local Data and Models (large binaries)
+# Model pipelines and metric summaries are versioned, raw binaries >100MB ignored
+*.parquet
+*.h5
+*.onnx
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini

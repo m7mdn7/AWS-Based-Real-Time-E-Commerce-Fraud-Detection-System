@@ -1,0 +1,194 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  AWS FraudShield - Real-Time Serverless E-Commerce Fraud Detection System.
+  Provisions API Gateway, Lambda, DynamoDB, S3, and CloudWatch.
+
+Globals:
+  Function:
+    Timeout: 15
+    MemorySize: 512
+    Runtime: python3.11
+    Environment:
+      Variables:
+        ENVIRONMENT: aws
+        STORAGE_BACKEND: dynamodb
+        DYNAMODB_TRANSACTIONS_TABLE: !Ref TransactionsTable
+        DYNAMODB_USERS_TABLE: !Ref UserProfilesTable
+        SAGEMAKER_ENDPOINT_NAME: !Ref SageMakerEndpointParameter
+        RISK_THRESHOLD_LOW: '0.30'
+        RISK_THRESHOLD_HIGH: '0.70'
+
+Parameters:
+  SageMakerEndpointParameter:
+    Type: String
+    Default: 'fraudshield-xgb-endpoint'
+    Description: 'Name of the Amazon SageMaker hosted inference endpoint (or local fallback)'
+
+Resources:
+  # =====================================================================
+  # 1. DynamoDB Tables (On-Demand Capacity - Free Tier Compatible)
+  # =====================================================================
+  TransactionsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: FraudShieldTransactions
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: transaction_id
+          AttributeType: S
+        - AttributeName: user_id
+          AttributeType: S
+        - AttributeName: created_at
+          AttributeType: S
+      KeySchema:
+        - AttributeName: transaction_id
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: UserTimestampIndex
+          KeySchema:
+            - AttributeName: user_id
+              KeyType: HASH
+            - AttributeName: created_at
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+
+  UserProfilesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: FraudShieldUserProfiles
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: user_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: user_id
+          KeyType: HASH
+
+  # =====================================================================
+  # 2. S3 Bucket for ML Model Artifacts & Datasets
+  # =====================================================================
+  ModelArtifactsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  # =====================================================================
+  # 3. CloudWatch Log Group for Structured Auditing
+  # =====================================================================
+  LambdaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/aws/lambda/${FraudShieldAnalyzerFunction}'
+      RetentionInDays: 14
+
+  # =====================================================================
+  # 4. AWS Lambda Execution Role (Least-Privilege IAM)
+  # =====================================================================
+  FraudShieldLambdaRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Policies:
+        - PolicyName: FraudShieldLeastPrivilegePolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Sid: DynamoDBAccess
+                Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:UpdateItem
+                  - dynamodb:Query
+                  - dynamodb:Scan
+                Resource:
+                  - !GetAtt TransactionsTable.Arn
+                  - !Sub '${TransactionsTable.Arn}/*'
+                  - !GetAtt UserProfilesTable.Arn
+              - Sid: SageMakerInference
+                Effect: Allow
+                Action:
+                  - sagemaker:InvokeEndpoint
+                Resource:
+                  - !Sub 'arn:aws:sagemaker:${AWS::Region}:${AWS::AccountId}:endpoint/${SageMakerEndpointParameter}'
+              - Sid: CloudWatchLogging
+                Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: '*'
+
+  # =====================================================================
+  # 5. Serverless Lambda Function
+  # =====================================================================
+  FraudShieldAnalyzerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: fraudshield-analyzer
+      CodeUri: ../
+      Handler: backend.lambda_function.lambda_handler
+      Role: !GetAtt FraudShieldLambdaRole.Arn
+      Events:
+        AnalyzeTransaction:
+          Type: Api
+          Properties:
+            Path: /transactions/analyze
+            Method: post
+        ListTransactions:
+          Type: Api
+          Properties:
+            Path: /transactions
+            Method: get
+        GetTransaction:
+          Type: Api
+          Properties:
+            Path: /transactions/{id}
+            Method: get
+        ListAlerts:
+          Type: Api
+          Properties:
+            Path: /alerts
+            Method: get
+        HealthCheck:
+          Type: Api
+          Properties:
+            Path: /health
+            Method: get
+        Stats:
+          Type: Api
+          Properties:
+            Path: /stats
+            Method: get
+
+Outputs:
+  ApiUrl:
+    Description: 'API Gateway Endpoint URL'
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod'
+  TransactionsTableName:
+    Description: 'DynamoDB Transactions Table Name'
+    Value: !Ref TransactionsTable
+  UserProfilesTableName:
+    Description: 'DynamoDB User Profiles Table Name'
+    Value: !Ref UserProfilesTable
+  ArtifactsBucketName:
+    Description: 'S3 Bucket Name for Model Artifacts'
+    Value: !Ref ModelArtifactsBucket
